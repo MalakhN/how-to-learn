@@ -8,13 +8,13 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/*
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
-
+*/
 .header {
   height: 100vh;
   min-height: 600px;
@@ -37,24 +37,30 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
   margin-left: 64px;
+  margin-top: 0;
+  margin-bottom: 0;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
+  margin: 0;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -110,6 +116,11 @@ h1, h2, h3, h4, h5, p {
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -163,6 +174,7 @@ h1, h2, h3, h4, h5, p {
   font-size: 18px;
   font-style: normal;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -278,6 +290,7 @@ h1, h2, h3, h4, h5, p {
   font-size: 18px;
   font-weight: 600;
   color: white;
+  margin: 0;
 }
 
 .footer__column_content_copyright {
