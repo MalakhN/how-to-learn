@@ -1,18 +1,11 @@
-# Название проекта
-**Научиться учиться**
-Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+# How to learn
+** Static website - training project
 
-# Описание проекта
-На ресурсе собрана полезная информация о видах и техниках эффективного обучения.
+### Description
+The resource contains useful information about the types and techniques of effective learning.
 
-# Функциональность проекта
-- Полезная инфографика (цифры и факты)
-- Видеоматериалы по теме
-- Литература по теме
-- Ссылки на другие полезные ресурсы
-
-# Используемые технологии
-- Flexbox-верстка
-- Файловая структура БЭМ-nested
-- Оптимизация для поисковиков (alt-теги изображений, семантические теги для разметки заголовков и основного текста, вся текстовая информация доступна для индексации)
-- Видео-элементы в виде iframe
+## Technologies
+- Flexbox
+- BEM
+- SEO (alt tags of images, semantic tags for markup of titles and main text, all text information is available for indexing)
+- Iframe (videos)
