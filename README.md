@@ -1,5 +1,5 @@
 # How to learn
-** Static website - training project
+**Static website - training project**
 
 ### Description
 The resource contains useful information about the types and techniques of effective learning.
